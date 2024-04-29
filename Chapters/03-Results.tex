@@ -1,3 +1,33 @@
-\chapter{Results}
-\label{cp:results}
-This is the results section.
+\chapter{Results} \label{cp:results}
+
+\autoref{fig:c_l_vs_alpha}, \autoref{fig:c_d_vs_alpha}, and \autoref{fig:c_m_vs_alpha} show the airfoil coefficient of lift, drag, and moment, respectively, for each angle of attack under clean and iced conditions. \autoref{fig:c_lbyc_d_vs_alpha} shows the airfoil lift to drag ratio for each angle of attack under clean and iced conditions. Full-size graphs can be found in \autoref{sec:full_size_figures}.
+
+\begin{figure}[htpb]
+    \centering
+    \begin{subfigure}{0.49\textwidth}
+        \centering
+        \includesvg[width=\textwidth]{Figures/Coefficient of Lift vs. Angle of Attack.svg}
+        \caption{Coefficient of lift versus the angle of attack.}
+        \label{fig:c_l_vs_alpha}
+    \end{subfigure}
+    \begin{subfigure}{0.49\textwidth}
+        \centering
+        \includesvg[width=\textwidth]{Figures/Coefficient of Drag vs. Angle of Attack.svg}
+        \caption{Coefficient of drag versus the angle of attack.}
+        \label{fig:c_d_vs_alpha}
+    \end{subfigure} \\
+    \begin{subfigure}{0.49\textwidth}
+        \centering
+        \includesvg[width=\textwidth]{Figures/Coefficient of Moment vs. Angle of Attack.svg}
+        \caption{Coefficient of moment versus the angle of attack.}
+        \label{fig:c_m_vs_alpha}
+    \end{subfigure}
+    \begin{subfigure}{0.49\textwidth}
+        \centering
+        \includesvg[width=\textwidth]{Figures/Lift to Drag Ratio vs. Angle of Attack.svg}
+        \caption{Lift to drag ratio versus the angle of attack.}
+        \label{fig:c_lbyc_d_vs_alpha}
+    \end{subfigure}
+    \caption{Graphs of various aerodynamic parameters for an airfoil under iced and clean conditions.}
+    \label{fig:results}
+\end{figure}

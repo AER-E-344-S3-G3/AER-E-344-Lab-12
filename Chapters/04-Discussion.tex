@@ -1,3 +1,7 @@
-\chapter{Discussion}
-\label{cp:discussion}
-This is the discussion section.
+\chapter{Discussion} \label{cp:discussion}
+
+According to the graphs in \autoref{fig:results}, the iced airfoil generated significantly less lift and significantly more drag, especially at higher angles of attack. The lift to drag ratio for the iced airfoil is worse (closer to zero), with the highest delta occurring from angles of attack \qtyrange{4}{12}{\degree}. This latter result is perfectly sensible, given that at high angles of attack, (above \qty{12}{\degree}) much of the flow is separating as it passes over the airfoil, hence less air is contacting the ice build-up on the airfoil.
+
+As shown in \autoref{fig:c_m_vs_alpha}, the coefficient of moment, \gls{c_m}, is significantly lower on the iced airfoil at lower angles of attack. In steady flight, pilots will use the elevator to trim any excess moment caused by the wings. If a pilot were flying in trimmed flight and the wing suddenly iced over, it would cause the plane to pitch and the pilot would need to adjust the elevator to correct the trim. Additionally, if a pilot was flying in steady flight and the wings iced over, the pilot may also have to increase thrust to compensate for the lower \gls{c_lbyc_d}. Higher thrust necessarily means higher fuel usage. Furthermore, reducing the effects of icing could reduce fuel consumption expense.
+
+It's hard to estimate or make any uncertainty measurements since we don't have information on the sensors or access to the script that ran the calculations. All sensors will only be precise to a degree, but taking a \qty{10}{\second} sample as we did in this lab will help to improve accuracy by smoothing out outliers and erroneous measurements. 
